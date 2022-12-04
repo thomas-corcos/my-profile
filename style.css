@@ -1,0 +1,106 @@
+/*Colors and fonts*/
+ body {
+ 	background: hotpink;
+ 	font-family: Helvetica;
+ }
+
+h2 {
+	color: blueviolet;
+	font-style: unset;
+	text-underline-position: under;
+}
+
+
+a: hover {
+	color: black;
+}
+
+#profile {
+	width: 100px;
+
+}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 20px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+#work {
+ background: white;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.pres{
+  text-align: center;
+  background: white;
+  padding: 30px;
+  margin: 10px auto;
+  border: 1px solid black;
+  
+}
+#Iam {
+	padding: 10px;
+	margin: 20px;
+}
+
+
+.hobbies {
+  background: white;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.fa-brands fa-twitter {
+width: 50px;
+}
+
+.boutonviolet {
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+}
+.boutonviolet:hover {
+color: black;
+background-color: pink;
+}
+
+.list-inline i {
+list-style: none;
+}
+
+.list-inline li{
+	list-style: none;
+	
+	
+
+}
+.social {
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 60px;
+	padding: 40px;
+	}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: white;
+	}
